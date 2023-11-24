@@ -1,0 +1,10 @@
+python
+java
+javascript
+nodemon
+c++
+go
+java
+javascript
+python
+sql
