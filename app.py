@@ -1,6 +1,6 @@
 import re
 # search words
-search_words =["java","Python","C++","go","javascript","sql","nodemon","react"]
+search_words =["Java","Python","C++","go","javascript","sQl","nodemon","ReAct"]
 
 # read txt file
 with open("./file.txt","r") as file:
@@ -8,5 +8,5 @@ with open("./file.txt","r") as file:
 
     # match words
     for word in search_words:
-        matches = re.findall(rf"\b{word}\b",data,flags=re.IGNORECASE)
+        matches = re.findall(rf"\b{word.lower()}\b",data,flags=re.IGNORECASE)
         print(f"{word} : {len(matches)}")
