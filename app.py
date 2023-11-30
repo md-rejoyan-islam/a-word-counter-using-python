@@ -1,6 +1,6 @@
 import re
 # search words
-search_words =["Java","Python","C++","go","javascript","sQl","nodemon","ReAct"]
+search_words =["Java","Python","C++","go","javascript","sql","nodemon","ReAct"]
 
 # read txt file
 with open("./file.txt","r") as file:
