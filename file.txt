@@ -1,7 +1,7 @@
 python
 java
 javascript
-nodemon
+noDemon
 c++
 go
 Java
@@ -14,4 +14,4 @@ react
 MongoDB
 C+++
 C#
-c
+

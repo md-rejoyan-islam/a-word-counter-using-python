@@ -14,7 +14,7 @@ data = data.split("\n")
 data = list(filter(None, data))
 
 # convert list items as lower case
-data = [item.lower() for item in data]
+data = [item.lower().strip() for item in data]
 
 
 # match full word with case insensitive anc count
