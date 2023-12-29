@@ -4,11 +4,14 @@ javascript
 nodemon
 c++
 go
-java
-javascript
+Java
+JavaScript
 python
 sqL
 SQL 
 React
 react
 MongoDB
+C+++
+C#
+c
